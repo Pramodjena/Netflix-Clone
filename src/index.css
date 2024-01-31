@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #000;
+}
+.hr_line {
+  @apply bg-[#232323] h-2.5;
+}
